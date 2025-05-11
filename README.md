@@ -1,12 +1,13 @@
-# Final Pickasso Executable Package
+# Pickasso HMI Deployment
 
-## Deployment Steps:
-1. Run `chmod +x scripts/start_simulation.sh`
-2. Start simulation using `./scripts/start_simulation.sh`
-3. Launch ROS navigation using `roslaunch ros_launch/navigation.launch`
-
-Includes:
-- Vision Inference (YOLO + MediaPipe)
-- Ethical Decision-Making Logic
-- ROS Navigation Launch Files
-- One-Command Startup Script
+## To Run HMI Frontend:
+1. Navigate to frontend and run:
+```
+npm install
+npm start
+```
+## To Run Convex Backend:
+1. Navigate to convex directory and run:
+```
+npx convex dev
+```
