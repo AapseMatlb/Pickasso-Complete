@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="pickasso_manipulation" type="manipulation_node.py" name="manipulation_node" output="screen"/>
+</launch>
