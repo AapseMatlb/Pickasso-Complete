@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find turtlebot3_navigation)/launch/move_base.launch"/>
+    <param name="use_sim_time" value="true"/>
+    <node pkg="pickasso_navigation" type="navigation_node.py" name="navigation_node" output="screen"/>
+</launch>
